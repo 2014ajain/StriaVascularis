@@ -1,5 +1,5 @@
 # Stria Analysis Overview 
-This repository has three jupyter notebooks for to analyze the stria vascularis using the methods proposed in this paper(link). Please download these files as a zip and follow the instruction within the jupyter notebooks! This repository also contains some sample data for analysis. 
+This repository has three jupyter notebooks for to analyze the stria vascularis using the methods proposed in this paper(link). Please download these files as a zip and follow the instruction within the jupyter notebooks! Sample data for analysis can be found here(link). Trained nnUnet model can be found here(link). 
 Please install this after instally pytorch, nnUNet, and Ultralytics before running these notebooks. 
 This notebook is designed to work on a CUDA GPU
 
