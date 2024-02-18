@@ -1,7 +1,7 @@
 # Stria Analysis Overview 
 This repository has three jupyter notebooks for to analyze the stria vascularis using the methods proposed in this paper(link). Please download these files as a zip and follow the instruction within the jupyter notebooks! Sample data for analysis can be found here: [link](https://drive.google.com/drive/folders/1bAalpF6-O6Vj1dI_oV2VEaTYHjhd_BuM?usp=share_link) 
 Trained nnUnet model can be found here: [link](https://drive.google.com/drive/folders/1IRIMNbMk2tbu82jdr2yQPcntGPimrgim?usp=share_link)
-Please install this after instally pytorch, nnUNet, and Ultralytics before running these notebooks. 
+Please install this after installing pytorch, nnUNet, and Ultralytics before running these notebooks. 
 This notebook is designed to work on a CUDA GPU
 
 ## preprocess.ipynb
@@ -15,7 +15,7 @@ This notebook takes the preprocessed data and creates 256x256 patches around the
 
 ## runinference.ipynb
 RUN THIS THIRD
-Make sure nnUnet and pytorch are already installed and working. This notebook calculates the binary masks for the outline of the stria and its associated vasculature
+Make sure nnUnet and pytorch are already installed and working. This notebook calculates the binary masks for the outline of the stria and its associated vasculature. Please follow instructions on nnUnet to setup the location of nnUnet_results and place downloaded model there: [link](https://drive.google.com/drive/folders/1IRIMNbMk2tbu82jdr2yQPcntGPimrgim?usp=share_link)
 
 ## stria_analysis.ipynb
 RUN THIS FOURTH
